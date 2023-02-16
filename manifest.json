@@ -1,0 +1,15 @@
+{
+    "name": "Borans Adblocker",
+    "version": "1.0",
+    "description": "A chrome extension that blocks ads and trackers",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icons/icon.png"
+    },
+    "manifest_version": 2
+    
+    
+}
